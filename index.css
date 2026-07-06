@@ -62,6 +62,7 @@ body {
 
 .other_buttons {
     position: relative;
+    color: #f9e7d6;
 }
 
 .star {
@@ -100,6 +101,26 @@ body {
     font-family: "archivo black", sans-serif;
     text-decoration: none;
     z-index: 9;
+}
+
+.content {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 350px;
+    top: 250px;
+    border-radius: 30px;
+    background-color: #fa8da0;
+    width: 800px;
+}
+
+.body_text {
+    width: 750px;
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: "Open sans", sans-serif;
+    color: #f9e7d6;
 }
 
 a span {
