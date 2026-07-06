@@ -2,6 +2,10 @@ body {
     background-color: #f9e7d6;
 }
 
+.logo_button {
+    position: relative;
+}
+
 .oval {
     position:absolute;
     top: -300px;
@@ -31,6 +35,71 @@ body {
     font-family: "archivo black", sans-serif;
     text-decoration: none;
     z-index: 3;
+}
+
+.home_button_highlighted {
+    position: relative;
+}
+
+.star_highlighted {
+    position: absolute;
+    color: #f0582b;
+    width: 200px;
+    left: 600px;
+    z-index: 4;
+}
+
+.button_home {
+    position: absolute;
+    color: #f9e7d6;
+    font-size: 23px;
+    top: 33px;
+    left: 665px;
+    font-family: "archivo black", sans-serif;
+    text-decoration: none;
+    z-index: 5;
+}
+
+.other_buttons {
+    position: relative;
+}
+
+.star {
+    position: absolute;
+    left: 815px;
+    top: -2px;
+    width: 195px;
+    z-index: 6;
+}
+
+.blog_button {
+    position: absolute;
+    color: #f9e7d6;
+    font-size: 23px;
+    top: 33px;
+    left: 860px;
+    font-family: "archivo black", sans-serif;
+    text-decoration: none;
+    z-index: 7;
+}
+
+.star2 {
+    position: absolute;
+    left: 1000px;
+    top: -2px;
+    width: 195px;
+    z-index: 8;
+}
+
+.about_button {
+    position: absolute;
+    color: #f9e7d6;
+    font-size: 23px;
+    top: 33px;
+    left: 1035px;
+    font-family: "archivo black", sans-serif;
+    text-decoration: none;
+    z-index: 9;
 }
 
 a span {
