@@ -1,3 +1,41 @@
+body {
+    background-color: #f9e7d6;
+}
+
+.oval {
+    position:absolute;
+    top: -300px;
+    left: -50px;
+    width: 240px;
+    height: 600px;
+    background: #f0582b;
+    border-radius: 100px;
+    z-index: 1;
+}
+
+.circle {
+    position:absolute;
+    top: -50px;
+    left: 70px;
+    width: 200px;
+    height: 200px;
+    background: #fa8da0;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.name {
+    position:absolute;
+    color: #f9e7d6;
+    font-size: 50px;
+    font-family: "archivo black", sans-serif;
+    text-decoration: none;
+    z-index: 3;
+}
+
 a span {
   display: block;
 }
+
+
+
