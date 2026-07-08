@@ -41,11 +41,30 @@ body {
     position: relative;
 }
 
+.home_button {
+    position: relative;
+}
+
+.blog_button {
+    position: relative;
+}
+
+.about_button {
+    position: relative;
+}
+
+.blog_button_highlighted {
+    position: relative;
+}
+
+.about_button_highlighted {
+    position: relative;
+}
+
 .star_highlighted {
     position: absolute;
-    color: #f0582b;
-    width: 200px;
-    left: 600px;
+    width: 100px;
+    left: 700px;
     z-index: 4;
 }
 
@@ -54,10 +73,32 @@ body {
     color: #f9e7d6;
     font-size: 23px;
     top: 33px;
-    left: 665px;
+    left: 718px;
     font-family: "archivo black", sans-serif;
     text-decoration: none;
     z-index: 5;
+}
+
+.button_blog {
+    position: absolute;
+    color: #f9e7d6;
+    font-size: 23px;
+    top: 37px;
+    left: 937px;
+    font-family: "archivo black", sans-serif;
+    text-decoration: none;
+    z-index: 7;
+}
+
+.button_about {
+    position: absolute;
+    color: #f9e7d6;
+    font-size: 23px;
+    top: 35px;
+    left: 1115px;
+    font-family: "archivo black", sans-serif;
+    text-decoration: none;
+    z-index: 9;
 }
 
 .other_buttons {
@@ -67,13 +108,12 @@ body {
 
 .star {
     position: absolute;
-    left: 815px;
-    top: -2px;
-    width: 195px;
+    left: 915px;
+    width: 100px;
     z-index: 6;
 }
 
-.blog_button {
+/* .blog_button {
     position: absolute;
     color: #f9e7d6;
     font-size: 23px;
@@ -82,17 +122,16 @@ body {
     font-family: "archivo black", sans-serif;
     text-decoration: none;
     z-index: 7;
-}
+} */
 
 .star2 {
     position: absolute;
-    left: 1000px;
-    top: -2px;
-    width: 195px;
+    left: 1100px;
+    width: 100px;
     z-index: 8;
 }
 
-.about_button {
+/* .about_button {
     position: absolute;
     color: #f9e7d6;
     font-size: 23px;
@@ -101,7 +140,7 @@ body {
     font-family: "archivo black", sans-serif;
     text-decoration: none;
     z-index: 9;
-}
+} */
 
 .content {
     position:absolute;
